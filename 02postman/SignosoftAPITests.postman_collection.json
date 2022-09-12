@@ -550,7 +550,7 @@
 									"                \"doctoken\": {\"type\": \"string\"}\r",
 									"            },\r",
 									"            \"required\": [\"docid\",\"docname\", \"docstate\", \"docowner\", \"docsize\", \"docMode\", \"doctoken\"],\r",
-									"            \"additionalProperties\": false\r",
+									"            \"additionalProperties\": true\r",
 									"        },\r",
 									"        \"uploadResult\": {\"type\": \"string\"}\r",
 									"    }\r",

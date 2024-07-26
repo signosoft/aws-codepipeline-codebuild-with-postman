@@ -7,6 +7,7 @@ phases:
                                    --s3-bucket codedeploy-pipeline
                                    --s3-prefix api-code
                                    --output-template-file signosoft-api-output.yaml
+      - nvm install node 20
 artifacts:
   type: zip
   files:
